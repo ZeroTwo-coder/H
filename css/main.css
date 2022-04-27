@@ -346,7 +346,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin: 150px 0 150px 0;
+  margin: 150px 0 250px 0;
 }
 
 * section.team .title {
@@ -416,5 +416,104 @@
 * section.team .card_mans .card .name p {
   font-size: 15px;
   color: #33333390;
+}
+
+* section.we_provide {
+  width: 100%;
+  height: 140vh;
+  -webkit-transform: skewY(-6deg);
+          transform: skewY(-6deg);
+  background: #2b2b2b;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #f5f5f5;
+}
+
+* section.we_provide .content {
+  margin-top: 150px;
+  -webkit-transform: skewY(6deg);
+          transform: skewY(6deg);
+  text-align: center;
+}
+
+* section.we_provide .content h1 {
+  font-weight: 400;
+  font-size: 40px;
+}
+
+* section.we_provide .content p {
+  color: #858585;
+}
+
+* section.we_provide .content .bloks {
+  width: 100%;
+  margin-top: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+* section.we_provide .content .bloks .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0 6%;
+}
+
+* section.we_provide .content .bloks .item img {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+* section.we_provide .content .bloks .item img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+* section.we_provide .content .bloks .item h3 {
+  margin-top: 20px;
+  width: 250px;
+  font-weight: 400;
+  font-size: 22px;
+  color: #f5f5f5;
+}
+
+* section.we_provide .content .bloks .item p {
+  width: 350px;
+  font-size: 15px;
+}
+
+* section.we_provide .content .btn {
+  width: 240px;
+  padding: 20px 35px;
+  margin: 250px auto;
+  background: #f5f5f5;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+* section.we_provide .content .btn:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+* section.we_provide .content .btn a, * section.we_provide .content .btn:active {
+  text-decoration: none;
+  color: #2b2b2b;
+  font-weight: 500;
 }
 /*# sourceMappingURL=main.css.map */
